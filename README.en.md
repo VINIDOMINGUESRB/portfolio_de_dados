@@ -31,8 +31,7 @@ browser DevTools) — a skill that rarely shows up in portfolios but is
 common when integrating with legacy/institutional systems.
 
 ### 2. Churn prediction — data science case study (Data Master)
-📁 `churn_prediction_streaming/` *(currently in a private repo — publish
-it or copy the notebook in before linking it here)*
+📁 `previsao_churn_streaming/`
 
 Churn prediction model for a music streaming subscription business,
 built as an evaluated case study for the Data Master program, reviewed
@@ -63,18 +62,13 @@ generated via a recursive CTE. Runs with a single command
 
 Three notebooks, three famous Kaggle datasets, three problem types:
 
-- **Titanic** — binary classification (survival), with
-  `ColumnTransformer` + `Pipeline`, Logistic Regression vs. Random Forest
-  comparison, `GridSearchCV` and ROC curve.
-- **House Prices** — regression (sale price), with categorical null
-  handling, log-scale regression, and Linear/Ridge vs. Random Forest
-  comparison.
-- **Mall Customer Segmentation** — clustering (K-Means), with the elbow
-  method, silhouette score, and translation of clusters into named
-  business segments.
+**Titanic** — binary classification (survival), with `ColumnTransformer` + `Pipeline`, Logistic Regression vs. Random Forest comparison, `GridSearchCV` and ROC curve.
 
-**Stack:** pandas, numpy, matplotlib/seaborn, scikit-learn, Jupyter
-Notebook.
+**House Prices** — regression (sale price), with categorical null handling, log-scale regression, and Linear/Ridge vs. Random Forest comparison.
+
+**Mall Customer Segmentation** — clustering (K-Means), with the elbow method, silhouette score, and translation of clusters into named business segments.
+
+**Stack:** pandas, numpy, matplotlib/seaborn, scikit-learn, Jupyter Notebook.
 
 ---
 
@@ -83,7 +77,7 @@ Notebook.
 ```
 .
 ├── open_finance_brasil/
-├── churn_prediction_streaming/
+├── previsao_churn_streaming/
 ├── novo_projeto_03_analytics_engineering/
 │   ├── models/staging/       (SQL cleaning views)
 │   ├── models/marts/         (star schema + metrics)
@@ -101,11 +95,4 @@ and run instructions.
 
 ## How to use this README
 
-1. Adjust the folder names above to match your repository's actual
-   layout (move `open_finance_brasil.ipynb` into its own folder if you
-   want to follow this pattern, or update the link).
-2. Decide whether the churn notebook (`datamaster`) should go public, or
-   whether you'd rather copy just the notebook into this repository.
-3. Run the project 4 notebooks once locally (`pip install -r
-   requirements.txt` inside the folder, then `jupyter notebook`, `Run
-   All`) so charts and results are saved and visible directly on GitHub.
+Adjust the folder names above to match your repository's actual layout (move `open_finance_brasil.ipynb` into its own folder if you want to follow this pattern, or update the link). Run the project 4 notebooks once locally (`pip install -r requirements.txt` inside the folder, then `jupyter notebook`, `Run All`) so charts and results are saved and visible directly on GitHub.
