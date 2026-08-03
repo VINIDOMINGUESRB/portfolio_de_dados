@@ -10,7 +10,7 @@ SQL, Databricks/ambientes de nuvem e dados de Open Finance. Busco
 oportunidades como **analytics engineer** ou **cientista de dados**, no
 Brasil (remoto) ou internacionalmente.
 
-**Contato:** [LinkedIn](#) · [E-mail](#)
+**Contato:** [LinkedIn](#https://www.linkedin.com/in/vinicius-domingues-ribeiro/) · [E-mail](#vinicius.domingues.ribeiro@gmail.com)
 *(atualize os links acima com suas URLs antes de publicar)*
 
 ---
