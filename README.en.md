@@ -10,8 +10,7 @@ Databricks/cloud environments and Open Finance data. Looking for
 **analytics engineer** or **data scientist** roles, remote in Brazil or
 internationally.
 
-**Contact:** [LinkedIn](#) · [Email](#)
-*(update the links above with your actual URLs before publishing)*
+**Contact:**[LinkedIn](https://www.linkedin.com/in/vinicius-domingues-ribeiro/) · [E-mail](mailto:vinicius.domingues.ribeiro@gmail.com)
 
 ---
 
