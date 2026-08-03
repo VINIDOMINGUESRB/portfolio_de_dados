@@ -65,18 +65,13 @@ final.
 
 Três notebooks, três datasets famosos do Kaggle, três tipos de problema:
 
-- **Titanic** — classificação binária (sobrevivência), com
-  `ColumnTransformer` + `Pipeline`, comparação Logistic Regression x
-  Random Forest, `GridSearchCV` e curva ROC.
-- **House Prices** — regressão (preço de imóvel), com tratamento de
-  nulos categóricos, regressão em log e comparação Linear/Ridge x Random
-  Forest.
-- **Mall Customer Segmentation** — clustering (K-Means), com método do
-  cotovelo, silhouette score e tradução dos clusters em segmentos de
-  negócio nomeados.
+**Titanic** — classificação binária (sobrevivência), com `ColumnTransformer` + `Pipeline`, comparação Logistic Regression x Random Forest, `GridSearchCV` e curva ROC.
 
-**Stack:** pandas, numpy, matplotlib/seaborn, scikit-learn, Jupyter
-Notebook.
+**House Prices** — regressão (preço de imóvel), com tratamento de nulos categóricos, regressão em log e comparação Linear/Ridge x Random Forest.
+
+**Mall Customer Segmentation** — clustering (K-Means), com método do cotovelo, silhouette score e tradução dos clusters em segmentos de negócio nomeados.
+
+**Stack:** pandas, numpy, matplotlib/seaborn, scikit-learn, Jupyter Notebook.
 
 ---
 
@@ -103,12 +98,4 @@ instruções de execução.
 
 ## Como usar este README
 
-1. Ajuste os nomes de pasta acima para bater com a organização real do seu
-   repositório (renomeie `open_finance_brasil.ipynb` para dentro de uma
-   pasta própria se quiser seguir esse padrão, ou ajuste o link).
-2. Decida se o notebook de churn (`datamaster`) vai virar público ou se
-   você prefere copiar só o notebook para dentro deste repositório.
-3. Rode os notebooks do projeto 4 uma vez localmente (`pip install -r
-   requirements.txt` dentro da pasta, depois `jupyter notebook`, `Run
-   All`) para que os gráficos e resultados fiquem salvos e visíveis
-   direto no GitHub.
+Ajuste os nomes de pasta acima para bater com a organização real do seu repositório (renomeie `open_finance_brasil.ipynb` para dentro de uma pasta própria se quiser seguir esse padrão, ou ajuste o link). Rode os notebooks do projeto 4 uma vez localmente (`pip install -r requirements.txt` dentro da pasta, depois `jupyter notebook`, `Run All`) para que os gráficos e resultados fiquem salvos e visíveis direto no GitHub.
