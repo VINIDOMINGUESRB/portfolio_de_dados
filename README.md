@@ -32,9 +32,7 @@ portfólio, mas é comum no dia a dia de quem integra com sistemas
 legados/institucionais.
 
 ### 2. Previsão de churn — case de ciência de dados (Data Master)
-📁 `previsao_churn_streaming/` *(hoje em repositório privado — publicar
-ou copiar o notebook antes de linkar aqui)*
-
+📁 `previsao_churn_streaming/` 
 Modelo de predição de cancelamento (churn) para uma empresa de streaming
 de música, desenvolvido como case avaliativo do programa Data Master, com
 avaliação por especialistas de ciência de dados do Santander.
